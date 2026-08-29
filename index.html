@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jet Lag Calculator | Jet Lag Recovery Calculator & Symptoms Guide</title>
+<meta name="description" content="Free jet lag calculator that builds your personalized jet lag recovery plan. See how long jet lag lasts, common jet lag symptoms, and a step-by-step recovery schedule based on your flight and sleep times.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+  /* ============ TOKENS ============ */
+  :root{
+    --ink: #1C2340;
+    --ink-2: #262E52;
+    --paper: #FBF9F5;
+    --card: #FFFFFF;
+    --coral: #FF7E5F;
+    --coral-dark: #E8613F;
+    --violet: #6C63AC;
+    --violet-light: #EFEDFA;
+    --text: #2B2F45;
+    --text-soft: #5B6079;
+    --line: #E7E3DA;
+    --gold: #F2B84B;
+    --success-bg: #F1F6EE;
+    --radius-lg: 28px;
+    --radius-md: 18px;
+    --radius-sm: 10px;
+    --shadow-soft: 0 20px 50px -25px rgba(28,35,64,0.35);
+    --shadow-tiny: 0 6px 18px -10px rgba(28,35,64,0.25);
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+  }
+
+  @font-face{
+    font-family:'Fraunces';
+    src: local('Fraunces');
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *,*::before,*::after{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; scroll-behavior:auto !important; }
+  }
+
+  body{
+    margin:0;
+    font-family:var(--font-body);
+    color:var(--text);
+    background:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,h4{
+    font-family:var(--font-display);
+    color:var(--ink);
+    margin:0 0 .5em 0;
+    font-weight:600;
+    line-height:1.15;
+    letter-spacing:-0.01em;
+  }
+
+  p{ margin:0 0 1em 0; }
+  a{ color:var(--coral-dark); }
+  img,svg{ display:block; max-width:100%; }
+
+  .container{
+    width:100%;
+    max-width:1120px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  .eyebrow{
+    font-family:var(--font-mono);
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.72rem;
+    color:var(--coral-dark);
+    font-weight:600;
+  }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:15px 30px;
+    border-radius:999px;
+    font-family:var(--font-body);
+    font-weight:700;
+    font-size:.98rem;
+    border:none;
+    cursor:pointer;
+    text-decoration:none;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+  }
+  .btn-primary{
+    background:linear-gradient(135deg, var(--coral), var(--coral-dark));
+    color:#fff;
+    box-shadow:0 14px 30px -12px rgba(232,97,63,0.55);
+  }
+  .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 18px 34px -12px rgba(232,97,63,0.65); }
+  .btn-ghost{
+    background:transparent;
+    color:var(--ink);
+    border:1.5px solid var(--line);
+  }
+  .btn-ghost:hover{ border-color:var(--ink); }
+  .btn:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible, button:focus-visible, summary:focus-visible{
+    outline:3px solid var(--gold);
+    outline-offset:2px;
+  }
+
+  /* ============ WAVE DIVIDER (signature rhythm motif) ============ */
+  .wave-divider{
+    width:100%;
+    height:28px;
+    display:block;
+  }
+  .wave-divider path{ stroke:var(--line); stroke-width:2; fill:none; }
+
+  /* ============ NAV ============ */
+  header.site-nav{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(251,249,245,0.86);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 24px;
+    max-width:1120px;
+    margin:0 auto;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:1.2rem;
+    color:var(--ink);
+    text-decoration:none;
+  }
+  .brand-mark{
+    width:30px; height:30px;
+    border-radius:8px;
+    flex-shrink:0;
+    display:block;
+    image-rendering:-webkit-optimize-contrast;
+  }
+  .nav-links{
+    display:flex;
+    gap:28px;
+    list-style:none;
+    margin:0; padding:0;
+  }
+  .nav-links a{
+    color:var(--text);
+    text-decoration:none;
+    font-weight:600;
+    font-size:.94rem;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{ color:var(--coral-dark); }
+  .nav-cta{ display:none; }
+  .nav-toggle{ display:none; }
+
+  @media (max-width: 820px){
+    .nav-links{
+      position:fixed;
+      top:66px; left:0; right:0;
+      background:var(--paper);
+      flex-direction:column;
+      padding:20px 24px 28px;
+      border-bottom:1px solid var(--line);
+      gap:18px;
+      transform:translateY(-8px);
+      opacity:0;
+      pointer-events:none;
+      transition:opacity .2s ease, transform .2s ease;
+    }
+    .nav-links.open{ opacity:1; transform:translateY(0); pointer-events:auto; }
+    .nav-toggle{
+      display:inline-flex;
+      align-items:center; justify-content:center;
+      width:42px; height:42px;
+      border-radius:50%;
+      border:1.5px solid var(--line);
+      background:transparent;
+      cursor:pointer;
+    }
+    .nav-toggle span, .nav-toggle span::before, .nav-toggle span::after{
+      content:'';
+      display:block;
+      width:18px; height:2px;
+      background:var(--ink);
+      position:relative;
+      transition:.2s;
+    }
+    .nav-toggle span::before{ position:absolute; top:-6px; }
+    .nav-toggle span::after{ position:absolute; top:6px; }
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    background:radial-gradient(120% 140% at 15% 0%, #2A3260 0%, var(--ink) 55%, #171C36 100%);
+    color:#fff;
+    padding:76px 0 60px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-inner{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    gap:48px;
+    align-items:center;
+  }
+  .hero h1{
+    color:#fff;
+    font-size:clamp(2.1rem, 4.2vw, 3.15rem);
+    margin-bottom:.4em;
+  }
+  .hero .lede{
+    color:#CBD0EA;
+    font-size:1.08rem;
+    max-width:520px;
+    margin-bottom:1.7em;
+  }
+  .hero-actions{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .hero-note{
+    margin-top:20px;
+    font-family:var(--font-mono);
+    font-size:.78rem;
+    color:#9AA1C9;
+    letter-spacing:.02em;
+  }
+
+  /* Signature circadian arc graphic */
+  .arc-wrap{
+    position:relative;
+    aspect-ratio:1/0.86;
+  }
+  .arc-wrap svg{ width:100%; height:100%; }
+  .arc-label{
+    font-family:var(--font-mono);
+    font-size:.68rem;
+    letter-spacing:.06em;
+  }
+
+  /* ============ SECTION GENERIC ============ */
+  section{ padding:80px 0; }
+  .section-head{
+    max-width:640px;
+    margin:0 0 40px 0;
+  }
+  .section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
+  .section-head h2{ font-size:clamp(1.7rem, 3vw, 2.35rem); }
+  .section-head p{ color:var(--text-soft); font-size:1.03rem; }
+
+  .bg-ink{ background:var(--ink); color:#fff; }
+  .bg-ink h2, .bg-ink h3{ color:#fff; }
+  .bg-ink .section-head p{ color:#B9BFE0; }
+  .bg-violet-tint{ background:linear-gradient(180deg, var(--paper) 0%, var(--violet-light) 100%); }
+
+  /* ============ CALCULATOR ============ */
+  .calc-card{
+    background:var(--card);
+    border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-soft);
+    padding:44px;
+    border:1px solid var(--line);
+  }
+  .calc-card h2{ font-size:1.6rem; margin-bottom:.2em; }
+  .calc-sub{ color:var(--text-soft); margin-bottom:2em; }
+
+  .step-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px 28px;
+    margin-bottom:10px;
+  }
+  .field{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+  }
+  .field-span2{ grid-column:1/-1; }
+  .field label{
+    font-weight:700;
+    font-size:.88rem;
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .step-num{
+    display:inline-flex;
+    align-items:center; justify-content:center;
+    width:22px; height:22px;
+    border-radius:50%;
+    background:var(--violet-light);
+    color:var(--violet);
+    font-family:var(--font-mono);
+    font-size:.72rem;
+    font-weight:700;
+    flex-shrink:0;
+  }
+  .field select, .field input{
+    font-family:var(--font-body);
+    font-size:1rem;
+    padding:13px 14px;
+    border-radius:var(--radius-sm);
+    border:1.5px solid var(--line);
+    background:#fff;
+    color:var(--text);
+    width:100%;
+  }
+  .field select:focus, .field input:focus{
+    border-color:var(--violet);
+  }
+  .field-hint{ font-size:.8rem; color:var(--text-soft); }
+  .field-error{
+    font-size:.8rem;
+    color:#C4433A;
+    font-weight:600;
+    display:none;
+  }
+  .field.has-error select, .field.has-error input{ border-color:#C4433A; }
+  .field.has-error .field-error{ display:block; }
+
+  .calc-submit-row{
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    flex-wrap:wrap;
+  }
+
+  /* ============ RESULTS ============ */
+  #results{
+    margin-top:46px;
+    padding-top:40px;
+    border-top:1px dashed var(--line);
+    display:none;
+  }
+  #results.show{ display:block; animation:fadeUp .5s ease both; }
+  @keyframes fadeUp{ from{ opacity:0; transform:translateY(14px); } to{ opacity:1; transform:translateY(0); } }
+
+  .result-stats{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:18px;
+    margin-bottom:32px;
+  }
+  .stat-card{
+    background:var(--violet-light);
+    border-radius:var(--radius-md);
+    padding:22px;
+  }
+  .stat-card .stat-icon{ font-size:1.5rem; margin-bottom:6px; display:block; }
+  .stat-card .stat-value{
+    font-family:var(--font-display);
+    font-size:1.5rem;
+    color:var(--ink);
+    font-weight:600;
+  }
+  .stat-card .stat-label{
+    font-size:.82rem;
+    color:var(--text-soft);
+    font-weight:600;
+  }
+
+  .disclaimer-inline{
+    background:#FFF6EC;
+    border:1px solid #F3DCB8;
+    border-radius:var(--radius-sm);
+    padding:16px 18px;
+    font-size:.86rem;
+    color:#7A5A22;
+    margin-bottom:32px;
+  }
+  .disclaimer-inline strong{ color:#5E4315; }
+
+  .timeline{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(210px,1fr));
+    gap:18px;
+  }
+  .timeline-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius-md);
+    padding:22px;
+    box-shadow:var(--shadow-tiny);
+  }
+  .timeline-card .tl-eyebrow{
+    font-family:var(--font-mono);
+    font-size:.7rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--coral-dark);
+    font-weight:700;
+    margin-bottom:8px;
+    display:block;
+  }
+  .timeline-card h4{ font-size:1.05rem; margin-bottom:8px; }
+  .timeline-card .clock-row{
+    font-family:var(--font-mono);
+    font-size:.92rem;
+    color:var(--ink);
+    background:var(--paper);
+    border-radius:8px;
+    padding:8px 10px;
+    margin-bottom:6px;
+  }
+  .timeline-card p{ font-size:.88rem; color:var(--text-soft); margin-bottom:0; }
+
+  /* ============ HOW IT WORKS ============ */
+  .how-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:26px;
+  }
+  .how-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius-md);
+    padding:28px;
+  }
+  .how-card .how-icon{
+    width:46px; height:46px;
+    border-radius:12px;
+    background:var(--violet-light);
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.3rem;
+    margin-bottom:16px;
+  }
+  .how-card h3{ font-size:1.12rem; }
+  .how-card p{ color:var(--text-soft); font-size:.94rem; margin-bottom:0; }
+
+  /* ============ GUIDE / SEO CONTENT ============ */
+  .guide-block{
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:36px;
+    padding:34px 0;
+    border-top:1px solid var(--line);
+  }
+  .guide-block:first-of-type{ border-top:none; }
+  .guide-block .guide-kicker{
+    font-family:var(--font-mono);
+    font-size:.72rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--violet);
+    font-weight:700;
+  }
+  .guide-block h3{ font-size:1.3rem; margin-top:6px; }
+  .guide-body p{ color:var(--text-soft); }
+  .guide-body ul{ color:var(--text-soft); padding-left:20px; }
+  .guide-body li{ margin-bottom:6px; }
+
+  @media (max-width: 780px){
+    .guide-block{ grid-template-columns:1fr; gap:10px; }
+  }
+
+  /* ============ FAQ ============ */
+  .faq-list{ max-width:800px; margin:0 auto; }
+  .faq-item{
+    border-bottom:1px solid var(--line);
+  }
+  .faq-item summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 4px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    font-weight:700;
+    color:var(--ink);
+    font-size:1.02rem;
+  }
+  .faq-item summary::-webkit-details-marker{ display:none; }
+  .faq-item summary .plus{
+    flex-shrink:0;
+    width:26px; height:26px;
+    border-radius:50%;
+    border:1.5px solid var(--line);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-mono);
+    color:var(--coral-dark);
+    transition:transform .2s ease;
+  }
+  .faq-item[open] summary .plus{ transform:rotate(45deg); }
+  .faq-item .faq-a{
+    padding:0 4px 24px 4px;
+    color:var(--text-soft);
+  }
+
+  /* ============ AFFILIATE / PRODUCTS ============ */
+  .affiliate-notice{
+    background:var(--violet-light);
+    border-radius:var(--radius-sm);
+    padding:16px 20px;
+    font-size:.88rem;
+    color:#4B457F;
+    margin-bottom:36px;
+    max-width:820px;
+  }
+  .product-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
+  }
+  .product-grid-2{
+    grid-template-columns:repeat(2, minmax(0,340px));
+    max-width:720px;
+  }
+  .product-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius-md);
+    padding:26px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .product-card:hover{ transform:translateY(-4px); box-shadow:var(--shadow-tiny); }
+  .product-icon{
+    width:48px; height:48px;
+    border-radius:12px;
+    background:linear-gradient(135deg, var(--coral), var(--violet));
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.4rem;
+  }
+  .product-card h4{ font-size:1.05rem; margin:0; color:var(--ink); }
+  .product-card p{ font-size:.88rem; color:var(--text-soft); margin:0; flex-grow:1; }
+  .product-card .btn{ align-self:flex-start; margin-top:4px; padding:11px 22px; font-size:.88rem; }
+
+  /* ============ FOOTER / LEGAL ============ */
+  footer{
+    background:var(--ink);
+    color:#C7CBE6;
+    padding:70px 0 30px;
+  }
+  .footer-top{
+    display:grid;
+    grid-template-columns:1.2fr 1fr 1fr;
+    gap:40px;
+    padding-bottom:44px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+  }
+  footer .brand{ color:#fff; margin-bottom:14px; }
+  footer .footer-desc{ color:#9AA1C9; font-size:.92rem; max-width:320px; }
+  footer h5{
+    color:#fff;
+    font-family:var(--font-body);
+    font-size:.82rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    margin-bottom:16px;
+  }
+  footer ul{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+  footer a{ color:#B4B9DC; text-decoration:none; font-size:.92rem; }
+  footer a:hover{ color:#fff; }
+
+  .legal-section{ padding-top:46px; }
+  .legal-block{
+    padding:26px 0;
+    border-top:1px solid rgba(255,255,255,0.08);
+  }
+  .legal-block:first-child{ border-top:none; }
+  .legal-block h5{ font-size:.95rem; margin-bottom:12px; }
+  .legal-block p, .legal-block li{ color:#9AA1C9; font-size:.86rem; }
+  .legal-block ul{ padding-left:18px; display:block; }
+  .legal-block li{ margin-bottom:6px; }
+
+  .footer-bottom{
+    margin-top:36px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,0.08);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:.8rem;
+    color:#7A80A8;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 900px){
+    .hero-inner{ grid-template-columns:1fr; }
+    .arc-wrap{ max-width:420px; margin:0 auto; }
+    .step-grid{ grid-template-columns:1fr; }
+    .result-stats{ grid-template-columns:1fr; }
+    .how-grid{ grid-template-columns:1fr; }
+    .product-grid{ grid-template-columns:1fr 1fr; }
+    .product-grid-2{ max-width:none; }
+    .footer-top{ grid-template-columns:1fr; }
+  }
+  @media (max-width: 560px){
+    .calc-card{ padding:26px 20px; }
+    section{ padding:56px 0; }
+    .product-grid{ grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand"><img class="brand-mark" src="data:image/png;base64,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" alt="">JetLagRecover</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#guide">Jet Lag Guide</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks"><span></span></button>
+  </div>
+</header>
+
+<a id="top"></a>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <p class="eyebrow" style="color:#FFB79E;">Free Jet Lag Calculator</p>
+      <h1>Calculate Your Personalized Jet Lag Recovery Plan</h1>
+      <p class="lede">Enter your travel details and sleep schedule to receive a personalized estimate of your time-zone adjustment and a suggested recovery schedule — built around how your body clock actually shifts.</p>
+      <div class="hero-actions">
+        <a href="#calculator" class="btn btn-primary">Build My Recovery Plan</a>
+        <a href="#how-it-works" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,0.3);">How it works</a>
+      </div>
+      <p class="hero-note">No sign-up · No app · Takes about 60 seconds</p>
+    </div>
+    <div class="arc-wrap" aria-hidden="true">
+      <svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="arcHome" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#6C63AC"/>
+            <stop offset="100%" stop-color="#9A93D6"/>
+          </linearGradient>
+          <linearGradient id="arcDest" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#FF7E5F"/>
+            <stop offset="100%" stop-color="#F2B84B"/>
+          </linearGradient>
+        </defs>
+        <circle cx="210" cy="330" r="150" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        <path d="M 40 260 A 170 170 0 0 1 380 260" fill="none" stroke="url(#arcHome)" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+        <path d="M 75 220 A 135 135 0 0 1 345 220" fill="none" stroke="url(#arcDest)" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="345" cy="220" r="9" fill="#F2B84B"/>
+        <circle cx="40" cy="260" r="6" fill="#9A93D6"/>
+        <line x1="210" y1="330" x2="210" y2="90" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3 6"/>
+        <text x="210" y="70" text-anchor="middle" fill="#8B92C4" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">BODY CLOCK</text>
+        <text x="60" y="300" fill="#9A93D6" font-family="IBM Plex Mono, monospace" font-size="11">HOME</text>
+        <text x="330" y="255" fill="#F2B84B" font-family="IBM Plex Mono, monospace" font-size="11">DEST</text>
+        <circle cx="210" cy="330" r="3" fill="#fff"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR ============ -->
+<section id="calculator">
+  <div class="container">
+    <div class="calc-card">
+      <p class="eyebrow">The Tool</p>
+      <h2>Jet Lag Recovery Calculator</h2>
+      <p class="calc-sub">Fill in your flight and sleep details below. Everything is calculated instantly in your browser — nothing is sent anywhere.</p>
+
+      <form id="jetlagForm" novalidate>
+        <div class="step-grid">
+          <div class="field">
+            <label for="fromCity"><span class="step-num">1</span> Flying from</label>
+            <select id="fromCity" required></select>
+            <span class="field-error">Please select a departure city.</span>
+          </div>
+          <div class="field">
+            <label for="toCity"><span class="step-num">2</span> Flying to</label>
+            <select id="toCity" required></select>
+            <span class="field-error">Please select a destination city.</span>
+          </div>
+
+          <div class="field">
+            <label for="arrivalDate"><span class="step-num">3</span> Arrival date</label>
+            <input type="date" id="arrivalDate" required>
+            <span class="field-error">Please choose an arrival date.</span>
+          </div>
+          <div class="field">
+            <label for="arrivalTime">&nbsp;&nbsp;&nbsp;&nbsp;Approximate arrival time</label>
+            <input type="time" id="arrivalTime" value="14:00" required>
+            <span class="field-error">Please choose an arrival time.</span>
+          </div>
+
+          <div class="field">
+            <label for="bedtime"><span class="step-num">4</span> Normal bedtime</label>
+            <input type="time" id="bedtime" value="22:30" required>
+            <span class="field-hint">Your usual bedtime at home</span>
+          </div>
+          <div class="field">
+            <label for="waketime"><span class="step-num">5</span> Normal wake-up time</label>
+            <input type="time" id="waketime" value="07:00" required>
+            <span class="field-hint">Your usual wake-up time at home</span>
+          </div>
+        </div>
+
+        <div class="calc-submit-row">
+          <button type="submit" class="btn btn-primary">Calculate My Recovery Plan</button>
+          <span class="field-hint" id="formStatus"></span>
+        </div>
+      </form>
+
+      <!-- ============ RESULTS (populated by JS) ============ -->
+      <div id="results">
+        <svg class="wave-divider" viewBox="0 0 400 28" preserveAspectRatio="none" aria-hidden="true"><path d="M0 14 Q 25 0 50 14 T 100 14 T 150 14 T 200 14 T 250 14 T 300 14 T 350 14 T 400 14"/></svg>
+
+        <h3 style="margin-top:26px;">Your Results</h3>
+
+        <div class="result-stats">
+          <div class="stat-card">
+            <span class="stat-icon">🌎</span>
+            <div class="stat-value" id="statHours">—</div>
+            <div class="stat-label">Time zones crossed</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">✈️</span>
+            <div class="stat-value" id="statDirection">—</div>
+            <div class="stat-label">Travel direction</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🕐</span>
+            <div class="stat-value" id="statAdjust">—</div>
+            <div class="stat-label">Estimated adjustment</div>
+          </div>
+        </div>
+
+        <div class="disclaimer-inline">
+          <strong>A quick note:</strong> These results are general educational estimates based on time-zone difference and travel direction, not a medical assessment. Individual adjustment can vary — see the full disclaimer in the footer.
+        </div>
+
+        <h3>😴 Your Personalized Sleep Schedule</h3>
+        <p style="color:var(--text-soft);">A suggested day-by-day bedtime and wake-time as your body clock shifts toward <span id="destCityName">your destination</span>'s local time.</p>
+
+        <div id="scheduleTimeline" class="timeline" style="margin-bottom:40px;"></div>
+
+        <h3>Your Jet Lag Recovery Plan</h3>
+        <p style="color:var(--text-soft);">A general, non-medical plan broken into easy stages.</p>
+        <div id="recoveryPlan" class="timeline"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="wave-divider" viewBox="0 0 1200 28" preserveAspectRatio="none" aria-hidden="true" style="max-width:1120px;margin:0 auto;"><path d="M0 14 Q 25 0 50 14 T 100 14 T 150 14 T 200 14 T 250 14 T 300 14 T 350 14 T 400 14 T 450 14 T 500 14 T 550 14 T 600 14 T 650 14 T 700 14 T 750 14 T 800 14 T 850 14 T 900 14 T 950 14 T 1000 14 T 1050 14 T 1100 14 T 1150 14 T 1200 14"/></svg>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how-it-works" class="bg-violet-tint">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">The Method</p>
+      <h2>How the calculator works</h2>
+      <p>Three simple ideas drive the whole tool — no black box.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-icon">🕓</div>
+        <h3>Time-zone difference</h3>
+        <p>Crossing multiple time zones can temporarily put your internal sleep-wake schedule out of step with the clock on the wall. The more zones you cross, the bigger that gap tends to be.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-icon">🧭</div>
+        <h3>Eastward vs. westward</h3>
+        <p>Traveling eastward generally means shifting your body clock earlier, while traveling westward generally means shifting it later. Most people find shifting later a little easier than shifting earlier.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-icon">🙋</div>
+        <h3>Individual differences</h3>
+        <p>Zones crossed, direction of travel, sleep habits, your itinerary, and simple individual variation all play a role. That's why every estimate here is a general starting point, not a guarantee.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO GUIDE CONTENT ============ -->
+<section id="guide">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Jet Lag Guide</p>
+      <h2>Understanding jet lag</h2>
+      <p>Everything below is general educational information — not medical advice.</p>
+    </div>
+
+    <div class="guide-body">
+      <div class="guide-block">
+        <div><p class="guide-kicker">01</p><h3>How long does jet lag last?</h3></div>
+        <div>
+          <p>There's no single number that applies to every traveler. As a general pattern, adjustment time tends to track with how many time zones you crossed and which direction you flew, plus factors like how well you slept before the trip, your itinerary once you land, and simple individual variation. Some travelers feel mostly settled within a couple of days; others take closer to a week for a long-haul, multi-zone trip. Treat any specific number — including the estimate this calculator gives you — as a general starting point rather than a fixed timeline.</p>
+        </div>
+      </div>
+
+      <div class="guide-block" id="symptoms">
+        <div><p class="guide-kicker">02</p><h3>Jet lag symptoms</h3></div>
+        <div>
+          <p>Jet lag symptoms show up because your internal body clock and the local time at your destination are temporarily out of sync. Commonly reported jet lag symptoms include:</p>
+          <ul>
+            <li>Trouble falling asleep or staying asleep at the destination's normal bedtime</li>
+            <li>Daytime fatigue or excessive sleepiness</li>
+            <li>Difficulty concentrating or a general sense of mental fog</li>
+            <li>Waking up much earlier or later than intended</li>
+            <li>Irritability or low mood</li>
+            <li>Mild digestive changes or general malaise</li>
+          </ul>
+          <p>Symptoms are usually temporary and tend to ease as your schedule realigns with local time over the following days. This is general educational information, not a diagnostic checklist — if symptoms are severe or don't improve, consider speaking with a qualified healthcare professional.</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div><p class="guide-kicker">03</p><h3>What causes jet lag?</h3></div>
+        <div>
+          <p>Jet lag happens when your internal body clock — the roughly 24-hour rhythm that governs when you feel sleepy and when you feel alert — is still running on your departure time zone after you've landed somewhere with a different local time. Your body clock doesn't reset the moment you step off the plane; it catches up gradually, which is why you might feel wide awake at 2 a.m. local time or foggy in the middle of the destination afternoon.</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div><p class="guide-kicker">04</p><h3>Eastward vs. westward jet lag</h3></div>
+        <div>
+          <p>Direction of travel matters because of how the body clock naturally moves. Most people find it a little easier to stay up later and sleep in (which is what westward travel effectively asks of you) than to fall asleep and wake up earlier than usual (which is what eastward travel asks of you). This is a general tendency, not a rule — individual results vary, and the number of zones crossed still matters more than direction alone once you're crossing many time zones.</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div><p class="guide-kicker">05</p><h3>How to adjust your sleep schedule before traveling</h3></div>
+        <div>
+          <p>When your schedule allows, gradually shifting your bedtime and wake time in the days before departure — a little each day, in the direction your destination requires — can give your body clock a head start. This calculator suggests a simple pre-travel shift based on your itinerary. It's a general strategy, and it isn't always practical depending on work, family, or travel schedules — skipping it doesn't mean you'll necessarily struggle more.</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div><p class="guide-kicker">06</p><h3>How to recover from jet lag</h3></div>
+        <div>
+          <p>General, non-medical habits many travelers find helpful:</p>
+          <ul>
+            <li>Try to align meals and sleep with the destination's local schedule as soon as practical.</li>
+            <li>Get some daylight exposure at times that support your target schedule, when possible.</li>
+            <li>Stay hydrated during and after the flight.</li>
+            <li>Keep your first day or two relatively light on demanding commitments if your itinerary allows.</li>
+            <li>Give your schedule a few consistent days rather than expecting an overnight fix.</li>
+          </ul>
+          <p>If sleep difficulties are significant, persistent, or affecting your wellbeing, consider speaking with a qualified healthcare professional.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AFFILIATE / PRODUCTS ============ -->
+<section id="essentials" class="bg-violet-tint">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Travel & Sleep Essentials</p>
+      <h2>Products travelers find useful</h2>
+      <p>Some travelers find certain products genuinely useful during travel or when trying to build a more comfortable, consistent sleep environment. Two picks below.</p>
+    </div>
+
+    <div class="affiliate-notice">
+      <strong>Affiliate Disclosure:</strong> Some links on this website may be affiliate links. If you make a purchase through one of these links, we may earn a commission at no additional cost to you. This helps support the website and keeps the calculator free to use.
+    </div>
+
+    <div class="product-grid product-grid-2">
+      <div class="product-card">
+        <div class="product-icon">📘</div>
+        <h4>Sleep Hacking Guide</h4>
+        <p>A structured guide to building better sleep habits — useful if you want a fuller plan for improving sleep quality beyond a single trip.</p>
+        <a href="https://www.betterdailyguide.site/sleep-hacking" class="btn btn-ghost" target="_blank" rel="nofollow sponsored noopener">View Options</a>
+      </div>
+      <div class="product-card">
+        <div class="product-icon">🛏️</div>
+        <h4>Derila Ergo Pillow</h4>
+        <p>An ergonomic memory-foam pillow designed to support better neck and spine alignment for more comfortable, consistent sleep.</p>
+        <a href="https://derila-ergo.com/derila-ergo/product?ang=clickbank&hop=zzzzz&hopId=d98b03b5-4649-4e57-a3f4-36d832e1d7ae" class="btn btn-ghost" target="_blank" rel="nofollow sponsored noopener">View Options</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">FAQ</p>
+      <h2>Common questions</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>How does the Jet Lag Recovery Calculator work?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>It takes your departure and destination time zones, arrival date and time, and your normal sleep schedule, then estimates the number of time zones crossed and travel direction. From there it generates a general, personalized sleep schedule and recovery timeline. All calculations happen instantly in your browser.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How many time zones do I need to cross to experience jet lag?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>Many travelers notice little to no jet lag crossing one or two time zones. Effects tend to become more noticeable somewhere around three or more zones, though this varies quite a bit from person to person.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What are the most common jet lag symptoms?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>Commonly reported jet lag symptoms include trouble falling or staying asleep at the destination's normal bedtime, daytime fatigue, difficulty concentrating, irritability, and waking up earlier or later than intended. Symptoms are usually temporary and tend to ease as your schedule realigns with local time.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is eastward or westward travel harder to adjust to?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>As a general pattern, many people find eastward travel (which requires falling asleep and waking up earlier) somewhat more difficult than westward travel (which requires staying up and waking later). This is a tendency, not a rule, and the number of zones crossed matters too.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How long does jet lag usually last?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>It varies by individual and trip, but adjustment time generally scales with the number of time zones crossed and travel direction. This calculator gives a general estimated range based on your specific itinerary.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I adjust my sleep schedule before traveling?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>Yes, when your schedule allows it. Gradually shifting your bedtime and wake time toward your destination's schedule in the days before departure is a commonly suggested general strategy, and this calculator includes a simple suggested pre-travel shift.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Does everyone experience jet lag the same way?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>No. Individual factors like sleep habits, age, itinerary, and general health can all influence how noticeable jet lag feels and how long it takes to adjust.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is this calculator medically accurate?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>This tool provides general educational estimates based on time-zone math and commonly cited travel-adjustment patterns. It is not a medical device, does not diagnose anything, and isn't a substitute for professional medical advice.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can this calculator guarantee how quickly I will recover?<span class="plus">+</span></summary>
+        <div class="faq-a"><p>No. It provides a general estimate only. Actual adjustment time can be faster or slower depending on individual circumstances, and this tool does not guarantee any particular outcome.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="legal">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a href="#top" class="brand"><img class="brand-mark" src="data:image/png;base64,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" alt="">JetLagRecover</a>
+        <p class="footer-desc">A free calculator that turns your flight and sleep details into a general, personalized jet lag adjustment estimate.</p>
+      </div>
+      <div>
+        <h5>Site</h5>
+        <ul>
+          <li><a href="#calculator">Calculator</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#guide">Jet Lag Guide</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#essentials">Travel &amp; Sleep Essentials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#disclaimer">Disclaimer</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Use</a></li>
+          <li><a href="#affiliate">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="legal-section">
+      <div class="legal-block" id="disclaimer">
+        <h5>Disclaimer</h5>
+        <p>This calculator provides general educational information and estimated sleep schedule suggestions only. It is not medical advice and does not diagnose, treat, or guarantee prevention or recovery from jet lag. Individual experiences and adjustment times can vary. If you have concerns about your sleep or health, consider consulting a qualified healthcare professional. Time-zone and offset data used in this tool are approximate and provided for general planning purposes; always confirm exact local time and any daylight-saving adjustments with an authoritative source before travel.</p>
+      </div>
+
+      <div class="legal-block" id="privacy">
+        <h5>Privacy Policy</h5>
+        <p>Last updated: 2026. JetLagRecover.com ("we," "us," or "this website") respects your privacy. This policy explains what information is collected when you use this site and how it's used.</p>
+        <p><strong>Information you provide.</strong> The calculator on this site runs entirely in your browser. The flight and sleep details you enter (cities, dates, times) are used only to generate your results on your device and are not transmitted to or stored on our servers.</p>
+        <p><strong>Automatically collected information.</strong> Like most websites, we may use standard analytics tools and cookies to understand aggregate site usage (such as pages visited and general geographic region) and to serve advertising. Third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this or other websites. This may include the use of Google Analytics and Google AdSense.</p>
+        <p><strong>Your choices.</strong> You can opt out of personalized advertising by visiting Google's Ads Settings, or opt out of some third-party vendor cookies through the Digital Advertising Alliance's opt-out page. Most browsers also let you control or block cookies through their settings.</p>
+        <p><strong>Third-party links.</strong> This site contains affiliate links to third-party retailers. We are not responsible for the privacy practices of those external sites; please review their own privacy policies.</p>
+        <p><strong>Children's privacy.</strong> This site is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+        <p><strong>Changes to this policy.</strong> We may update this Privacy Policy from time to time. Changes will be posted on this page.</p>
+        <p><strong>Contact.</strong> Questions about this policy can be sent to the contact information listed at the bottom of this page.</p>
+      </div>
+
+      <div class="legal-block" id="terms">
+        <h5>Terms of Use</h5>
+        <p>By accessing or using JetLagRecover.com, you agree to the following terms.</p>
+        <ul>
+          <li><strong>Educational use only.</strong> The content, tools, and calculators on this site are provided for general educational and informational purposes only and do not constitute medical, health, or professional advice.</li>
+          <li><strong>No guarantees.</strong> We make no representations or warranties about the accuracy, completeness, or reliability of any calculation, estimate, or content on this site. Use of the calculator and any resulting schedule is at your own discretion and risk.</li>
+          <li><strong>Intellectual property.</strong> The design, text, and code of this website are the property of JetLagRecover.com unless otherwise noted, and may not be reproduced without permission.</li>
+          <li><strong>Third-party links.</strong> This site includes links to third-party websites, including affiliate partners, over which we have no control. We are not responsible for the content, accuracy, or practices of any linked site.</li>
+          <li><strong>Limitation of liability.</strong> To the fullest extent permitted by law, JetLagRecover.com and its operators shall not be liable for any damages arising from your use of, or inability to use, this website or its tools.</li>
+          <li><strong>Changes.</strong> We may update these Terms of Use at any time. Continued use of the site after changes are posted constitutes acceptance of those changes.</li>
+          <li><strong>Governing law.</strong> These terms are governed by the laws of the jurisdiction in which the site operator resides, without regard to conflict-of-law principles.</li>
+        </ul>
+      </div>
+
+      <div class="legal-block" id="affiliate">
+        <h5>Affiliate Disclosure</h5>
+        <p>JetLagRecover.com participates in affiliate marketing programs, which means we may earn a commission from qualifying purchases made through links on this site, at no additional cost to you. This helps support the maintenance of this website and keeps the jet lag calculator free for everyone to use. Product recommendations reflect general categories that many travelers find useful and are not personalized medical or purchasing advice. We do not accept payment in exchange for positive reviews, and any compensation does not influence the accuracy of the educational content on this site.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 JetLagRecover.com. All rights reserved.</span>
+      <span>Not medical advice · General educational tool only</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ============ TIME ZONE DATA ============ */
+  // Approximate standard UTC offsets (hours). Simplified for general planning purposes.
+  var CITIES = [
+    { group:"North America", name:"New York, USA (ET)", offset:-5 },
+    { group:"North America", name:"Chicago, USA (CT)", offset:-6 },
+    { group:"North America", name:"Denver, USA (MT)", offset:-7 },
+    { group:"North America", name:"Los Angeles, USA (PT)", offset:-8 },
+    { group:"North America", name:"Anchorage, USA (AKT)", offset:-9 },
+    { group:"North America", name:"Honolulu, USA (HST)", offset:-10 },
+    { group:"North America", name:"Toronto, Canada (ET)", offset:-5 },
+    { group:"North America", name:"Vancouver, Canada (PT)", offset:-8 },
+    { group:"North America", name:"Winnipeg, Canada (CT)", offset:-6 },
+    { group:"North America", name:"Mexico City, Mexico (CT)", offset:-6 },
+    { group:"South America", name:"Bogotá, Colombia", offset:-5 },
+    { group:"South America", name:"Lima, Peru", offset:-5 },
+    { group:"South America", name:"Santiago, Chile", offset:-4 },
+    { group:"South America", name:"São Paulo, Brazil", offset:-3 },
+    { group:"South America", name:"Buenos Aires, Argentina", offset:-3 },
+    { group:"Europe", name:"London, United Kingdom (GMT)", offset:0 },
+    { group:"Europe", name:"Lisbon, Portugal", offset:0 },
+    { group:"Europe", name:"Paris, France (CET)", offset:1 },
+    { group:"Europe", name:"Madrid, Spain (CET)", offset:1 },
+    { group:"Europe", name:"Berlin, Germany (CET)", offset:1 },
+    { group:"Europe", name:"Rome, Italy (CET)", offset:1 },
+    { group:"Europe", name:"Amsterdam, Netherlands (CET)", offset:1 },
+    { group:"Europe", name:"Zurich, Switzerland (CET)", offset:1 },
+    { group:"Europe", name:"Athens, Greece (EET)", offset:2 },
+    { group:"Europe", name:"Helsinki, Finland (EET)", offset:2 },
+    { group:"Europe", name:"Moscow, Russia (MSK)", offset:3 },
+    { group:"Middle East", name:"Istanbul, Türkiye", offset:3 },
+    { group:"Middle East", name:"Dubai, UAE", offset:4 },
+    { group:"Middle East", name:"Tel Aviv, Israel", offset:2 },
+    { group:"Middle East", name:"Riyadh, Saudi Arabia", offset:3 },
+    { group:"Africa", name:"Cairo, Egypt", offset:2 },
+    { group:"Africa", name:"Lagos, Nigeria", offset:1 },
+    { group:"Africa", name:"Nairobi, Kenya", offset:3 },
+    { group:"Africa", name:"Johannesburg, South Africa", offset:2 },
+    { group:"Asia", name:"Karachi, Pakistan", offset:5 },
+    { group:"Asia", name:"Mumbai, India", offset:5.5 },
+    { group:"Asia", name:"New Delhi, India", offset:5.5 },
+    { group:"Asia", name:"Dhaka, Bangladesh", offset:6 },
+    { group:"Asia", name:"Bangkok, Thailand", offset:7 },
+    { group:"Asia", name:"Jakarta, Indonesia", offset:7 },
+    { group:"Asia", name:"Singapore", offset:8 },
+    { group:"Asia", name:"Hong Kong", offset:8 },
+    { group:"Asia", name:"Beijing, China", offset:8 },
+    { group:"Asia", name:"Shanghai, China", offset:8 },
+    { group:"Asia", name:"Manila, Philippines", offset:8 },
+    { group:"Asia", name:"Taipei, Taiwan", offset:8 },
+    { group:"Asia", name:"Seoul, South Korea", offset:9 },
+    { group:"Asia", name:"Tokyo, Japan", offset:9 },
+    { group:"Oceania", name:"Perth, Australia", offset:8 },
+    { group:"Oceania", name:"Adelaide, Australia", offset:9.5 },
+    { group:"Oceania", name:"Sydney, Australia", offset:10 },
+    { group:"Oceania", name:"Melbourne, Australia", offset:10 },
+    { group:"Oceania", name:"Brisbane, Australia", offset:10 },
+    { group:"Oceania", name:"Auckland, New Zealand", offset:12 }
+  ];
+
+  function populateCitySelect(select){
+    var groups = {};
+    CITIES.forEach(function(c){
+      if(!groups[c.group]) groups[c.group] = [];
+      groups[c.group].push(c);
+    });
+    var frag = document.createDocumentFragment();
+    var placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Select a city…";
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    frag.appendChild(placeholder);
+    Object.keys(groups).forEach(function(g){
+      var og = document.createElement("optgroup");
+      og.label = g;
+      groups[g].forEach(function(c){
+        var opt = document.createElement("option");
+        opt.value = c.offset;
+        opt.textContent = c.name;
+        opt.dataset.name = c.name;
+        og.appendChild(opt);
+      });
+      frag.appendChild(og);
+    });
+    select.appendChild(frag);
+  }
+
+  var fromSelect = document.getElementById("fromCity");
+  var toSelect = document.getElementById("toCity");
+  populateCitySelect(fromSelect);
+  populateCitySelect(toSelect);
+  // sensible defaults
+  fromSelect.value = "-5";
+  toSelect.value = "1";
+
+  /* ============ TIME HELPERS ============ */
+  function timeStrToHours(str){
+    var parts = str.split(":");
+    return parseInt(parts[0],10) + (parseInt(parts[1],10)/60);
+  }
+  function mod24(h){
+    var r = h % 24;
+    if(r < 0) r += 24;
+    return r;
+  }
+  function formatHour(h){
+    h = mod24(h);
+    var totalMin = Math.round(h*60);
+    var hh = Math.floor(totalMin/60) % 24;
+    var mm = totalMin % 60;
+    var suffix = hh >= 12 ? "PM" : "AM";
+    var displayHour = hh % 12;
+    if(displayHour === 0) displayHour = 12;
+    return displayHour + ":" + (mm < 10 ? "0"+mm : mm) + " " + suffix;
+  }
+  function selectedCityName(select){
+    var opt = select.options[select.selectedIndex];
+    return opt ? (opt.dataset.name || opt.textContent) : "";
+  }
+
+  /* ============ FORM VALIDATION ============ */
+  var form = document.getElementById("jetlagForm");
+  var formStatus = document.getElementById("formStatus");
+
+  function setFieldError(fieldEl, hasError){
+    var wrap = fieldEl.closest(".field");
+    if(!wrap) return;
+    wrap.classList.toggle("has-error", hasError);
+  }
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var valid = true;
+    var arrivalDate = document.getElementById("arrivalDate");
+    var arrivalTime = document.getElementById("arrivalTime");
+    var bedtime = document.getElementById("bedtime");
+    var waketime = document.getElementById("waketime");
+
+    [fromSelect, toSelect, arrivalDate, arrivalTime, bedtime, waketime].forEach(function(el){
+      var bad = !el.value;
+      setFieldError(el, bad);
+      if(bad) valid = false;
+    });
+
+    if(!valid){
+      formStatus.textContent = "Please complete all fields above.";
+      formStatus.style.color = "#C4433A";
+      return;
+    }
+    formStatus.textContent = "";
+
+    computeResults({
+      fromOffset: parseFloat(fromSelect.value),
+      toOffset: parseFloat(toSelect.value),
+      fromName: selectedCityName(fromSelect),
+      toName: selectedCityName(toSelect),
+      bedtimeHours: timeStrToHours(bedtime.value),
+      waketimeHours: timeStrToHours(waketime.value)
+    });
+  });
+
+  /* ============ CORE CALCULATION ============ */
+  function computeResults(input){
+    var rawDiff = input.toOffset - input.fromOffset;
+    // normalize into (-12, 12]
+    if(rawDiff > 12) rawDiff -= 24;
+    if(rawDiff <= -12) rawDiff += 24;
+
+    var hoursCrossed = Math.abs(rawDiff);
+    var direction = rawDiff > 0.01 ? "Eastward" : (rawDiff < -0.01 ? "Westward" : "No change");
+
+    // Adjustment day estimate: eastward roughly 1 day/zone, westward roughly 0.67 day/zone, min 1 (unless 0)
+    var recoveryDays;
+    if(hoursCrossed < 0.6){
+      recoveryDays = 0;
+    } else if(direction === "Eastward"){
+      recoveryDays = Math.max(1, Math.round(hoursCrossed * 1.0));
+    } else {
+      recoveryDays = Math.max(1, Math.round(hoursCrossed * 0.7));
+    }
+    recoveryDays = Math.min(recoveryDays, 10);
+
+    // ---- Update stat cards ----
+    document.getElementById("statHours").textContent = (hoursCrossed % 1 === 0 ? hoursCrossed : hoursCrossed.toFixed(1)) + (hoursCrossed === 1 ? " hour" : " hours");
+    document.getElementById("statDirection").textContent = direction === "No change" ? "None" : direction;
+    document.getElementById("statAdjust").textContent = recoveryDays === 0 ? "Minimal" : ("~" + recoveryDays + (recoveryDays === 1 ? " day" : " days"));
+    document.getElementById("destCityName").textContent = input.toName;
+
+    // ---- Sleep schedule timeline ----
+    var scheduleWrap = document.getElementById("scheduleTimeline");
+    scheduleWrap.innerHTML = "";
+
+    if(hoursCrossed < 0.6){
+      scheduleWrap.appendChild(makeTimelineCard("No significant shift", "Same time zone", [
+        "Your destination is roughly in the same time zone as home."
+      ], "Your normal bedtime and wake time should already line up well with local time — no meaningful adjustment expected."));
+    } else {
+      var initialDestBedtime = mod24(input.bedtimeHours + rawDiff);
+      var initialDestWake = mod24(input.waketimeHours + rawDiff);
+      var targetBedtime = input.bedtimeHours;
+      var targetWake = input.waketimeHours;
+
+      var daysToShow = Math.max(recoveryDays, 1);
+      var labels = ["Day 1", "Day 2", "Day 3", "Day 4+"];
+      var stepsCount = Math.min(daysToShow, 4);
+
+      for(var i = 1; i <= stepsCount; i++){
+        var fraction;
+        if(i === 4 || (stepsCount === 4 && i === 4)){
+          fraction = 1; // day 4+ fully adjusted
+        } else {
+          fraction = i / daysToShow;
+          if(fraction > 1) fraction = 1;
+        }
+        var bedShift = shortestShift(initialDestBedtime, targetBedtime) * fraction;
+        var wakeShift = shortestShift(initialDestWake, targetWake) * fraction;
+        var thisBed = mod24(initialDestBedtime + bedShift);
+        var thisWake = mod24(initialDestWake + wakeShift);
+
+        var label = labels[i-1] || ("Day " + i);
+        var note = i === stepsCount
+          ? "Close to your normal home schedule, now on local time."
+          : "Gradually shifting closer to your normal schedule on local time.";
+
+        scheduleWrap.appendChild(makeTimelineCard(label, "Local time in " + input.toName.split(",")[0], [
+          "Bedtime: " + formatHour(thisBed),
+          "Wake time: " + formatHour(thisWake)
+        ], note));
+      }
+    }
+
+    // ---- Recovery plan (Before / Travel Day / Day cards) ----
+    var planWrap = document.getElementById("recoveryPlan");
+    planWrap.innerHTML = "";
+
+    // Before Travel
+    var beforeLines = [];
+    if(hoursCrossed >= 2){
+      var preDays = Math.min(3, Math.ceil(hoursCrossed / 3));
+      var shiftPerDay = direction === "Eastward" ? -45 : 45; // minutes
+      for(var d = preDays; d >= 1; d--){
+        var minutesShift = shiftPerDay * (preDays - d + 1);
+        var preBed = mod24(input.bedtimeHours + minutesShift/60);
+        var preWake = mod24(input.waketimeHours + minutesShift/60);
+        beforeLines.push((d) + " day" + (d>1?"s":"") + " before departure — try bedtime around " + formatHour(preBed) + ", wake around " + formatHour(preWake));
+      }
+    } else {
+      beforeLines.push("With a small time-zone change like this, a pre-travel shift usually isn't necessary.");
+    }
+    planWrap.appendChild(makeTimelineCard("Before Travel", "Preparation", beforeLines.slice(0,3), "When practical, gradually shifting your schedule beforehand can give your body clock a head start."));
+
+    // Travel Day
+    planWrap.appendChild(makeTimelineCard("Travel Day", "In transit", [
+      "Set your watch to destination time once on board.",
+      "Rest when it aligns with destination night, stay awake when it aligns with destination day.",
+      "Stay hydrated and avoid overplanning your travel day."
+    ], "Simple, non-medical habits — nothing complicated."));
+
+    // Day 1
+    var day1 = document.getElementById("scheduleTimeline").children[0];
+    planWrap.appendChild(makeTimelineCard("Day 1", "Arrival", [
+      "Follow the Day 1 sleep schedule above.",
+      "Get some daylight at times that support your target schedule, if possible."
+    ], "Your first full day on destination time."));
+
+    // Day 2
+    planWrap.appendChild(makeTimelineCard("Day 2", "Adjusting", [
+      "Follow the Day 2 sleep schedule above.",
+      "Keep meals and activity aligned with local time."
+    ], "Most travelers notice some improvement by now."));
+
+    // Day 3
+    planWrap.appendChild(makeTimelineCard("Day 3", "Settling in", [
+      "Follow the Day 3 sleep schedule above.",
+      "Continue prioritizing a consistent local sleep-wake time."
+    ], "Consistency matters more than any single day."));
+
+    // Day 4+
+    planWrap.appendChild(makeTimelineCard("Day 4+", "Ongoing", [
+      "Keep a steady schedule aligned with destination local time.",
+      "Individual adjustment speed varies — that's normal."
+    ], "By this stage most people are close to their normal rhythm, on local time."));
+
+    // Reveal results
+    var results = document.getElementById("results");
+    results.classList.add("show");
+    results.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  // shortest signed shift (in hours) from `from` to `to` on a 24h clock, choosing the direction of rawDiff isn't needed here —
+  // we want the direct shrink toward target, so just compute to-from normalized to (-12,12]
+  function shortestShift(from, to){
+    var diff = to - from;
+    while(diff > 12) diff -= 24;
+    while(diff < -12) diff += 24;
+    return diff;
+  }
+
+  function makeTimelineCard(eyebrow, title, lines, note){
+    var card = document.createElement("div");
+    card.className = "timeline-card";
+    var eyebrowEl = document.createElement("span");
+    eyebrowEl.className = "tl-eyebrow";
+    eyebrowEl.textContent = eyebrow;
+    card.appendChild(eyebrowEl);
+    var h4 = document.createElement("h4");
+    h4.textContent = title;
+    card.appendChild(h4);
+    lines.forEach(function(line){
+      var row = document.createElement("div");
+      row.className = "clock-row";
+      row.textContent = line;
+      card.appendChild(row);
+    });
+    if(note){
+      var p = document.createElement("p");
+      p.textContent = note;
+      card.appendChild(p);
+    }
+    return card;
+  }
+
+  /* ============ MOBILE NAV ============ */
+  var navToggle = document.getElementById("navToggle");
+  var navLinks = document.getElementById("navLinks");
+  navToggle.addEventListener("click", function(){
+    var isOpen = navLinks.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+  navLinks.querySelectorAll("a").forEach(function(a){
+    a.addEventListener("click", function(){ navLinks.classList.remove("open"); navToggle.setAttribute("aria-expanded","false"); });
+  });
+
+  /* ============ DEFAULT ARRIVAL DATE ============ */
+  var arrivalDateInput = document.getElementById("arrivalDate");
+  var tmrw = new Date();
+  tmrw.setDate(tmrw.getDate() + 1);
+  arrivalDateInput.value = tmrw.toISOString().slice(0,10);
+
+})();
+</script>
+</body>
+</html>
